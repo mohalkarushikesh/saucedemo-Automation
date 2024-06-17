@@ -1,0 +1,17 @@
+problem statement : 
+	1. login to the website
+	2. print the names and prices of the available products
+		Add 1 : sauce labs bolt t-shirt
+		Add 1 : sauce labs backpack
+	3. Fill the info and Print total price
+	4. Capture the message "Thank you for your order!"
+
+https://www.saucedemo.com/
+
+	
+	
+	
+	
+	
+	
+	
