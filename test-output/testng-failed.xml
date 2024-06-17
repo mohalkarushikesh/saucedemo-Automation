@@ -5,6 +5,15 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="TestScenario.TC_LoginPage">
+        <methods>
+          <include name="clickOnUserNameTestCase"/>
+          <include name="setupDriver"/>
+          <include name="clickOnLoginButtonTestCase"/>
+          <include name="clickOnPasswordTestCase"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestScenario.TC_LoginPage -->
       <class name="TestScenario.TC_InventoryPage">
         <methods>
           <include name="click_on_checkout_TestCase"/>
@@ -13,8 +22,8 @@
           <include name="ClickOnfinishTestCase"/>
           <include name="captureTheMessageTestCase"/>
           <include name="printProductNamesandPricesTestCase"/>
+          <include name="GetTotalBillInfoTestCase"/>
           <include name="ClickOnAddtoCartTshirtTestCase"/>
-          <include name="verifySucessfullyNavigatedTestCase"/>
           <include name="ClickOnBacktoProductsTestCase"/>
           <include name="click_on_shopping_cart_link_TestCase"/>
           <include name="sendLastNameTestCase"/>

@@ -12,6 +12,7 @@
 - Java
 - Maven
 - Selenium WebDriver
+- Extent Report
 - Git
 - Github
 - TDD

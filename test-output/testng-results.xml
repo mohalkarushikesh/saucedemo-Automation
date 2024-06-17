@@ -2,82 +2,82 @@
 <testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-17T21:33:51 IST" name="Suite" finished-at="2024-06-17T21:33:58 IST" duration-ms="6377">
+  <suite started-at="2024-06-17T22:22:23 IST" name="Suite" finished-at="2024-06-17T22:22:32 IST" duration-ms="9369">
     <groups>
     </groups>
-    <test started-at="2024-06-17T21:33:51 IST" name="Test search in Chrome" finished-at="2024-06-17T21:33:58 IST" duration-ms="6377">
+    <test started-at="2024-06-17T22:22:23 IST" name="Test search in Chrome" finished-at="2024-06-17T22:22:32 IST" duration-ms="9369">
       <class name="TestScenario.TC_InventoryPage">
-        <test-method signature="printProductNamesandPricesTestCase()[pri:4, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:56 IST" name="printProductNamesandPricesTestCase" finished-at="2024-06-17T21:33:56 IST" duration-ms="463" status="PASS">
+        <test-method signature="printProductNamesandPricesTestCase()[pri:4, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:28 IST" name="printProductNamesandPricesTestCase" finished-at="2024-06-17T22:22:28 IST" duration-ms="393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printProductNamesandPricesTestCase -->
-        <test-method signature="clickOnAddtoCartBackPackTestCase()[pri:5, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:56 IST" name="clickOnAddtoCartBackPackTestCase" finished-at="2024-06-17T21:33:56 IST" duration-ms="61" status="PASS">
+        <test-method signature="clickOnAddtoCartBackPackTestCase()[pri:5, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:29 IST" name="clickOnAddtoCartBackPackTestCase" finished-at="2024-06-17T22:22:29 IST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnAddtoCartBackPackTestCase -->
-        <test-method signature="ClickOnAddtoCartTshirtTestCase()[pri:6, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:56 IST" name="ClickOnAddtoCartTshirtTestCase" finished-at="2024-06-17T21:33:57 IST" duration-ms="67" status="PASS">
+        <test-method signature="ClickOnAddtoCartTshirtTestCase()[pri:6, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:29 IST" name="ClickOnAddtoCartTshirtTestCase" finished-at="2024-06-17T22:22:29 IST" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnAddtoCartTshirtTestCase -->
-        <test-method signature="click_on_shopping_cart_link_TestCase()[pri:7, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:57 IST" name="click_on_shopping_cart_link_TestCase" finished-at="2024-06-17T21:33:57 IST" duration-ms="74" status="PASS">
+        <test-method signature="click_on_shopping_cart_link_TestCase()[pri:7, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:29 IST" name="click_on_shopping_cart_link_TestCase" finished-at="2024-06-17T22:22:29 IST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_on_shopping_cart_link_TestCase -->
-        <test-method signature="click_on_checkout_TestCase()[pri:8, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:57 IST" name="click_on_checkout_TestCase" finished-at="2024-06-17T21:33:57 IST" duration-ms="89" status="PASS">
+        <test-method signature="click_on_checkout_TestCase()[pri:8, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:29 IST" name="click_on_checkout_TestCase" finished-at="2024-06-17T22:22:30 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_on_checkout_TestCase -->
-        <test-method signature="sendFirstNameTestCase()[pri:9, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:57 IST" name="sendFirstNameTestCase" finished-at="2024-06-17T21:33:57 IST" duration-ms="90" status="PASS">
+        <test-method signature="sendFirstNameTestCase()[pri:9, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:30 IST" name="sendFirstNameTestCase" finished-at="2024-06-17T22:22:30 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendFirstNameTestCase -->
-        <test-method signature="sendLastNameTestCase()[pri:10, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:57 IST" name="sendLastNameTestCase" finished-at="2024-06-17T21:33:57 IST" duration-ms="90" status="PASS">
+        <test-method signature="sendLastNameTestCase()[pri:10, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:30 IST" name="sendLastNameTestCase" finished-at="2024-06-17T22:22:30 IST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendLastNameTestCase -->
-        <test-method signature="sendpostalcodeTestCase()[pri:11, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:57 IST" name="sendpostalcodeTestCase" finished-at="2024-06-17T21:33:57 IST" duration-ms="90" status="PASS">
+        <test-method signature="sendpostalcodeTestCase()[pri:11, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:30 IST" name="sendpostalcodeTestCase" finished-at="2024-06-17T22:22:30 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendpostalcodeTestCase -->
-        <test-method signature="ClickOnContinueTestCase()[pri:12, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:57 IST" name="ClickOnContinueTestCase" finished-at="2024-06-17T21:33:57 IST" duration-ms="83" status="PASS">
+        <test-method signature="ClickOnContinueTestCase()[pri:12, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:30 IST" name="ClickOnContinueTestCase" finished-at="2024-06-17T22:22:30 IST" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnContinueTestCase -->
-        <test-method signature="GetTotalBillInfoTestCase()[pri:13, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:57 IST" name="GetTotalBillInfoTestCase" finished-at="2024-06-17T21:33:57 IST" duration-ms="182" status="PASS">
+        <test-method signature="GetTotalBillInfoTestCase()[pri:13, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:31 IST" name="GetTotalBillInfoTestCase" finished-at="2024-06-17T22:22:31 IST" duration-ms="359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetTotalBillInfoTestCase -->
-        <test-method signature="ClickOnfinishTestCase()[pri:14, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:57 IST" name="ClickOnfinishTestCase" finished-at="2024-06-17T21:33:57 IST" duration-ms="76" status="PASS">
+        <test-method signature="ClickOnfinishTestCase()[pri:14, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:31 IST" name="ClickOnfinishTestCase" finished-at="2024-06-17T22:22:31 IST" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnfinishTestCase -->
-        <test-method signature="captureTheMessageTestCase()[pri:15, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:57 IST" name="captureTheMessageTestCase" finished-at="2024-06-17T21:33:57 IST" duration-ms="31" status="PASS">
+        <test-method signature="captureTheMessageTestCase()[pri:15, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:31 IST" name="captureTheMessageTestCase" finished-at="2024-06-17T22:22:32 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureTheMessageTestCase -->
-        <test-method signature="ClickOnBacktoProductsTestCase()[pri:16, instance:TestScenario.TC_InventoryPage@385c9627]" started-at="2024-06-17T21:33:57 IST" name="ClickOnBacktoProductsTestCase" finished-at="2024-06-17T21:33:57 IST" duration-ms="65" status="PASS">
+        <test-method signature="ClickOnBacktoProductsTestCase()[pri:16, instance:TestScenario.TC_InventoryPage@20f5239f]" started-at="2024-06-17T22:22:32 IST" name="ClickOnBacktoProductsTestCase" finished-at="2024-06-17T22:22:32 IST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnBacktoProductsTestCase -->
       </class> <!-- TestScenario.TC_InventoryPage -->
       <class name="TestScenario.TC_LoginPage">
-        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestScenario.TC_LoginPage@7e6f74c]" started-at="2024-06-17T21:33:51 IST" name="setupDriver" finished-at="2024-06-17T21:33:55 IST" duration-ms="4154" status="PASS">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:TestScenario.TC_LoginPage@5f9b2141]" started-at="2024-06-17T22:22:23 IST" name="setupDriver" finished-at="2024-06-17T22:22:27 IST" duration-ms="3754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method signature="clickOnUserNameTestCase()[pri:0, instance:TestScenario.TC_LoginPage@7e6f74c]" started-at="2024-06-17T21:33:56 IST" name="clickOnUserNameTestCase" finished-at="2024-06-17T21:33:56 IST" duration-ms="150" status="PASS">
+        <test-method signature="clickOnUserNameTestCase()[pri:0, instance:TestScenario.TC_LoginPage@5f9b2141]" started-at="2024-06-17T22:22:27 IST" name="clickOnUserNameTestCase" finished-at="2024-06-17T22:22:27 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnUserNameTestCase -->
-        <test-method signature="clickOnPasswordTestCase()[pri:1, instance:TestScenario.TC_LoginPage@7e6f74c]" started-at="2024-06-17T21:33:56 IST" name="clickOnPasswordTestCase" finished-at="2024-06-17T21:33:56 IST" duration-ms="126" status="PASS">
+        <test-method signature="clickOnPasswordTestCase()[pri:1, instance:TestScenario.TC_LoginPage@5f9b2141]" started-at="2024-06-17T22:22:27 IST" name="clickOnPasswordTestCase" finished-at="2024-06-17T22:22:27 IST" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnPasswordTestCase -->
-        <test-method signature="clickOnLoginButtonTestCase()[pri:2, instance:TestScenario.TC_LoginPage@7e6f74c]" started-at="2024-06-17T21:33:56 IST" name="clickOnLoginButtonTestCase" finished-at="2024-06-17T21:33:56 IST" duration-ms="138" status="PASS">
+        <test-method signature="clickOnLoginButtonTestCase()[pri:2, instance:TestScenario.TC_LoginPage@5f9b2141]" started-at="2024-06-17T22:22:28 IST" name="clickOnLoginButtonTestCase" finished-at="2024-06-17T22:22:28 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnLoginButtonTestCase -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestScenario.TC_LoginPage@7e6f74c]" started-at="2024-06-17T21:33:57 IST" name="tearDown" finished-at="2024-06-17T21:33:58 IST" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestScenario.TC_LoginPage@5f9b2141]" started-at="2024-06-17T22:22:32 IST" name="tearDown" finished-at="2024-06-17T22:22:32 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

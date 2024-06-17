@@ -196,6 +196,35 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">TestScenario.TC_LoginPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnLoginButtonTestCase">
+                  </a> <!-- clickOnLoginButtonTestCase -->
+                  <span class="method-name">clickOnLoginButtonTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnPasswordTestCase">
+                  </a> <!-- clickOnPasswordTestCase -->
+                  <span class="method-name">clickOnPasswordTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnUserNameTestCase">
+                  </a> <!-- clickOnUserNameTestCase -->
+                  <span class="method-name">clickOnUserNameTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">TestScenario.TC_InventoryPage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -292,35 +321,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestScenario.TC_LoginPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnLoginButtonTestCase">
-                  </a> <!-- clickOnLoginButtonTestCase -->
-                  <span class="method-name">clickOnLoginButtonTestCase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnPasswordTestCase">
-                  </a> <!-- clickOnPasswordTestCase -->
-                  <span class="method-name">clickOnPasswordTestCase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnUserNameTestCase">
-                  </a> <!-- clickOnUserNameTestCase -->
-                  <span class="method-name">clickOnUserNameTestCase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -331,6 +331,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utilities.ExtentReport&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;3&quot; name=&quot;Test search in Chrome&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
@@ -380,72 +383,72 @@ data.addRows(16);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'printProductNamesandPricesTestCase')
 data.setCell(0, 2, 'TestScenario.TC_InventoryPage')
-data.setCell(0, 3, 463);
+data.setCell(0, 3, 393);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'GetTotalBillInfoTestCase')
 data.setCell(1, 2, 'TestScenario.TC_InventoryPage')
-data.setCell(1, 3, 182);
+data.setCell(1, 3, 359);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'clickOnUserNameTestCase')
+data.setCell(2, 1, 'clickOnLoginButtonTestCase')
 data.setCell(2, 2, 'TestScenario.TC_LoginPage')
-data.setCell(2, 3, 150);
+data.setCell(2, 3, 174);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'clickOnLoginButtonTestCase')
+data.setCell(3, 1, 'clickOnUserNameTestCase')
 data.setCell(3, 2, 'TestScenario.TC_LoginPage')
-data.setCell(3, 3, 138);
+data.setCell(3, 3, 168);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'clickOnPasswordTestCase')
-data.setCell(4, 2, 'TestScenario.TC_LoginPage')
-data.setCell(4, 3, 126);
+data.setCell(4, 1, 'ClickOnBacktoProductsTestCase')
+data.setCell(4, 2, 'TestScenario.TC_InventoryPage')
+data.setCell(4, 3, 117);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'sendLastNameTestCase')
+data.setCell(5, 1, 'sendFirstNameTestCase')
 data.setCell(5, 2, 'TestScenario.TC_InventoryPage')
-data.setCell(5, 3, 90);
+data.setCell(5, 3, 98);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'sendFirstNameTestCase')
+data.setCell(6, 1, 'sendLastNameTestCase')
 data.setCell(6, 2, 'TestScenario.TC_InventoryPage')
-data.setCell(6, 3, 90);
+data.setCell(6, 3, 96);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'sendpostalcodeTestCase')
 data.setCell(7, 2, 'TestScenario.TC_InventoryPage')
-data.setCell(7, 3, 90);
+data.setCell(7, 3, 89);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'click_on_checkout_TestCase')
-data.setCell(8, 2, 'TestScenario.TC_InventoryPage')
+data.setCell(8, 1, 'clickOnPasswordTestCase')
+data.setCell(8, 2, 'TestScenario.TC_LoginPage')
 data.setCell(8, 3, 89);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'ClickOnContinueTestCase')
+data.setCell(9, 1, 'ClickOnfinishTestCase')
 data.setCell(9, 2, 'TestScenario.TC_InventoryPage')
 data.setCell(9, 3, 83);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'ClickOnfinishTestCase')
+data.setCell(10, 1, 'ClickOnContinueTestCase')
 data.setCell(10, 2, 'TestScenario.TC_InventoryPage')
-data.setCell(10, 3, 76);
+data.setCell(10, 3, 82);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'click_on_shopping_cart_link_TestCase')
 data.setCell(11, 2, 'TestScenario.TC_InventoryPage')
-data.setCell(11, 3, 74);
+data.setCell(11, 3, 78);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'ClickOnAddtoCartTshirtTestCase')
+data.setCell(12, 1, 'clickOnAddtoCartBackPackTestCase')
 data.setCell(12, 2, 'TestScenario.TC_InventoryPage')
-data.setCell(12, 3, 67);
+data.setCell(12, 3, 69);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'ClickOnBacktoProductsTestCase')
+data.setCell(13, 1, 'click_on_checkout_TestCase')
 data.setCell(13, 2, 'TestScenario.TC_InventoryPage')
-data.setCell(13, 3, 65);
+data.setCell(13, 3, 66);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'clickOnAddtoCartBackPackTestCase')
+data.setCell(14, 1, 'ClickOnAddtoCartTshirtTestCase')
 data.setCell(14, 2, 'TestScenario.TC_InventoryPage')
-data.setCell(14, 3, 61);
+data.setCell(14, 3, 58);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'captureTheMessageTestCase')
 data.setCell(15, 2, 'TestScenario.TC_InventoryPage')
-data.setCell(15, 3, 31);
+data.setCell(15, 3, 33);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -487,77 +490,77 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">clickOnUserNameTestCase</span>
-                <span class="method-start">4184 ms</span>
+                <span class="method-start">3783 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickOnPasswordTestCase</span>
-                <span class="method-start">4340 ms</span>
+                <span class="method-start">4132 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickOnLoginButtonTestCase</span>
-                <span class="method-start">4469 ms</span>
+                <span class="method-start">4404 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestScenario.TC_InventoryPage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">printProductNamesandPricesTestCase</span>
-                <span class="method-start">4612 ms</span>
+                <span class="method-start">4856 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickOnAddtoCartBackPackTestCase</span>
-                <span class="method-start">5078 ms</span>
+                <span class="method-start">5454 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ClickOnAddtoCartTshirtTestCase</span>
-                <span class="method-start">5140 ms</span>
+                <span class="method-start">5756 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">click_on_shopping_cart_link_TestCase</span>
-                <span class="method-start">5211 ms</span>
+                <span class="method-start">6044 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">click_on_checkout_TestCase</span>
-                <span class="method-start">5287 ms</span>
+                <span class="method-start">6317 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sendFirstNameTestCase</span>
-                <span class="method-start">5381 ms</span>
+                <span class="method-start">6592 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sendLastNameTestCase</span>
-                <span class="method-start">5473 ms</span>
+                <span class="method-start">6828 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sendpostalcodeTestCase</span>
-                <span class="method-start">5565 ms</span>
+                <span class="method-start">7059 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ClickOnContinueTestCase</span>
-                <span class="method-start">5657 ms</span>
+                <span class="method-start">7280 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetTotalBillInfoTestCase</span>
-                <span class="method-start">5743 ms</span>
+                <span class="method-start">7517 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ClickOnfinishTestCase</span>
-                <span class="method-start">5927 ms</span>
+                <span class="method-start">8102 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">captureTheMessageTestCase</span>
-                <span class="method-start">6005 ms</span>
+                <span class="method-start">8349 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ClickOnBacktoProductsTestCase</span>
-                <span class="method-start">6037 ms</span>
+                <span class="method-start">8567 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestScenario.TC_LoginPage</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6103 ms</span>
+                <span class="method-start">8927 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -59,8 +59,10 @@ public class Inventory extends BasePage {
 
 	public void printProductNamesandPrices() {
 		for (int i = 0; i < productNames.size(); i++) {
+			
 			System.out.println(productNames.get(i).getText() + "		" + productPrices.get(i).getText());
 		}
+		System.out.println();
 	}
 
 	public void clickOnAddtoCartBackPack() {
@@ -99,6 +101,7 @@ public class Inventory extends BasePage {
 		for (int i = 4; i < summaryinfo.size() - 1; i++) {
 			System.out.println(summaryinfo.get(i).getText());
 		}
+		System.out.println();
 	}
 
 	public void ClickOnfinish() {

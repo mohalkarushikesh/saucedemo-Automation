@@ -2,11 +2,15 @@ package TestScenario;
 
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+
 import PageObjects.Inventory;
 import TestBase.BaseClass;
 
 public class TC_InventoryPage extends BaseClass {
 	Inventory inventory;
+	ExtentReports extentreportobj = new ExtentReports();
+	String screenshotPath;
 
 	@Test(priority = 4)
 	public void printProductNamesandPricesTestCase() {
