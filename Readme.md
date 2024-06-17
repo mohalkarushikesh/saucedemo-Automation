@@ -34,10 +34,12 @@ Sauce Labs Bolt T-Shirt		$15.99
 Sauce Labs Fleece Jacket		$49.99
 Sauce Labs Onesie		$7.99
 Test.allTheThings() T-Shirt (Red)		$15.99
+
 Price Total
 Item total: $45.98
 Tax: $3.68
 Total: $49.66
+
 Thank you for your order!
 
 ===============================================
