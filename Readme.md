@@ -17,8 +17,8 @@
 - TDD
 
 ### Intallation
-1. Clone the repository: 
-2. Navigate to the project directory: cd 
+1. Clone the repository: https://github.com/mohalkarushikesh/saucedemo-Automation.git
+2. Navigate to the project directory: cd saucedemo-Automation 
 3. Install the dependencies: 'mvn install'
 
 ### Usage
